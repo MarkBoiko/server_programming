@@ -1,0 +1,23 @@
+{
+  "name": "triangleapp",
+  "version": "1.0.0",
+  "scripts": {
+    "test-1": "node app.js 3 \"leg\" 4 \"leg\"",
+    "test-2": "node app.js 5 \"hypotenuse\" 4 \"leg\"",
+    "test-3": "node app.js 3 \"leg\" 5 \"hypotenuse\"",
+    "test-4": "node app.js 3 \"leg\" 53.13 \"adjacent angle\"",
+    "test-5": "node app.js 36.87 \"adjacent angle\" 4 \"leg\"",
+    "test-6": "node app.js 3 \"leg\" 36.87 \"opposite angle\"",
+    "test-7": "node app.js 53.13 \"opposite angle\" 4 \"leg\"",
+    "test-8": "node app.js 5 \"hypotenuse\" 36.87 \"angle\"",
+    "test-9": "node app.js 53.13 \"angle\" 5 \"hypotenuse\"",
+    "test-10": "node app.js 0 \"angle\" 5 \"hypotenuse\"",
+    "test-11": "node app.js 43.13 \"angle\" -2 \"hypotenuse\"",
+    "test-12": "node app.js 3 \"leg\" 10000 \"leg\"",
+    "test-13": "node app.js 0.0000000001 \"leg\" 1000000000 \"leg\"",
+    "test-14": "node app.js 3 \"leg\" 105.13 \"adjacent angle\"",
+    "test-15": "node app.js 5 \"leg\" 4 \"hypotenuse\"",
+    "test-16": "node app.js 4 \"leg\" 4 \"hypotenuse\"",
+    "test": "npm run test-1 && npm run test-2 && npm run test-3 && npm run test-4 && npm run test-5 && npm run test-6 && npm run test-7 && npm run test-8 && npm run test-9 && npm run test-10 && npm run test-11 && npm run test-12 && npm run test-13 && npm run test-14 && npm run test-15 && npm run test-16 && exit 1"
+  }
+}
